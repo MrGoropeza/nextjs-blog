@@ -11,7 +11,7 @@ export default function Layout({
   children,
   home,
 }: {
-  children: any;
+  children: JSX.Element[];
   home: boolean;
 }) {
   return (
