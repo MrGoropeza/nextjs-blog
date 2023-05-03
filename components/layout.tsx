@@ -11,8 +11,8 @@ export default function Layout({
   children,
   home,
 }: {
-  children: JSX.Element[];
-  home: boolean;
+  children: JSX.Element[] | JSX.Element;
+  home?: boolean;
 }) {
   return (
     <div className={styles.container}>
